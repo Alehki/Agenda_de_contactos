@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    /* background-color: #333; */
+    color: #fff;
+    background-image: url(img/oscuro.jpg);
+}
+
+.title{
+    width: auto;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.form{
+    /* background-color: lightblue; */
+    width: 400px;
+    height: 300px;
+    border-radius: 30px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px 0px;
+}
+
+.date{
+    width: 350px;
+    padding: 10px;
+    margin-bottom: 30px;
+    /* background: none;
+    border: 0;
+    outline: 0; */
+}
+
+.button{
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 3px;
+    width: 350px;
+    background-color: lightseagreen;
+}
+/* ---------------------------------------------- */
+
+
+.list{
+    display: flex;
+    flex-direction: column;
+    margin-left: 220px;
+}
+
+div{
+    display: flex;
+}
+
+p{
+    margin-left: 100px;
+    width: 100px;
+}
+
+.eliminar{
+    background-color: red;
+    margin-left: 10px;
+}
+
